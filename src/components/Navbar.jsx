@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react'
-import {close, logo, menu} from '../assets'
+import {close, logo1, menu} from '../assets'
 import {navLinks} from '../constants'
 import { motion } from "framer-motion";
 import styles from '../style';
@@ -29,7 +29,7 @@ const Navbar = () => {
       // onClick={() => {setActive(""); window.scrollTo(0, 0) }} 
       className='cursor-pointer text-white'>
 
-        <img src={logo} alt="Dockerly" className='w-[124px] h-[32px]'/>
+        <img src={logo1} alt="Dockerly" className='w-[124px] h-[40px] scale-[1.1]'/>
 
       </a>
 
