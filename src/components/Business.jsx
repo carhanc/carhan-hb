@@ -26,7 +26,7 @@ const FeatureCard = ({icon, title, content, index}) => (
 
 const Business = () => {  
   return (
-    <section data-aos="fade-up" id="features" className={`${layout.section} sm:mt-20 mb-6`}>
+    <section data-aos="fade-right" id="features" className={`${layout.section} sm:mt-20 mb-6`}>
       <div className={layout.sectionInfo}>
 
         <h2 className={`${styles.heading2}`}>
