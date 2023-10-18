@@ -9,7 +9,9 @@ import Blank from './Blank'
 const Hero = () => (
     <section 
     data-aos="fade-left"
-    className={`flex md:flex-row flex-col ${styles.paddingY} mt-[10px]`}>
+    className={`flex md:flex-row flex-col ${styles.paddingY}`}
+    id='home'
+    >
       <div className={` flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
 
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
@@ -55,7 +57,7 @@ const Hero = () => (
 
       </div>
 
-      <div className={`ss:hidden ${styles.flexCenter}`}>
+      <div className={`ss:hidden ${styles.flexCenter} rounded-full`}>
         <GetStarted />
       </div>
     </section>

@@ -7,12 +7,17 @@ import {AiOutlineArrowDown} from 'react-icons/ai'
 
 const App = () => (
     <div className='bg-primary w-full overflow-hidden'>
-        <div className={`${styles.flexCenter} pb-[85px]`}>
+        <div className={`${styles.flexCenter} mb-[85px]`}>
           <div className={`${styles.navWidth}`}>
+            <div id='home'>
+
+            </div>
+
             <Navbar />
           </div>
         </div>
-        {/* <Blank /> */}
+        
+        <div className='bg-transparent'>d</div>
         <div className={`bg-primary ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <Hero />
@@ -31,10 +36,15 @@ const App = () => (
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
-
           
+          <div id='features'>
+            <Blank />
+          </div>
 
           <Business />
+          <div className='py-3'>
+            <Blank />
+          </div>
           <Billing />
           <CardDeal />
           <Testimonials />

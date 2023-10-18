@@ -4,7 +4,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 const Stats = () => (
-    <section className={`${styles.flexCenter} flex-row flex-wrap  pt-3`}>
+    <section className={`${styles.flexCenter} flex-row flex-wrap pt-3`}>
       {stats.map((stat) => (
         <div key={stat.id} className={`flex-1 flex justify-start flex-row m-3 items-center`}>
 
