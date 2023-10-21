@@ -15,7 +15,7 @@ const Testimonials = () => (
         data-aos-offset="300"
         data-aos-easing="ease-in-sine" 
         data-aos-duration="1500"
-        className={`${styles.paddingY} ${styles.flexCenter} flex-col relative`}>
+        className={`${styles.paddingY} ${styles.flexCenter} flex-col relative lg:mt-0 mt-[50px]`}>
           <div className='absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient' />
 
           <div className='w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
